@@ -35,6 +35,14 @@ document.body.appendChild(ns);
 
 cdnjs.common=()=>{
 
+jss=(i)=>
+ {
+  return JSON.stringify(i,null," ");
+ };
+jsp=JSON.parse;
+csl=console.log;
+
+
 objls=function(obj)
       {
           let objO=obj;
